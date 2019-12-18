@@ -1,0 +1,53 @@
+{
+  "name": "r-stripe",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.4.0",
+    "@testing-library/user-event": "^7.2.0",
+    "axios": "^0.19.0",
+    "babel-polyfill": "^6.26.0",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "history": "^4.10.1",
+    "parcel": "^1.12.4",
+    "parcel-bundler": "^1.12.4",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.3.0",
+    "react-stripe-elements": "^6.0.1",
+    "stripe": "^7.14.0"
+  },
+  "cripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "scripts": {
+    "build": "parcel build public/index.html --out-dir build --no-source-maps",
+    "dev": "node src/server.js & parcel public/index.html",
+    "start": "node src/server.js"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "sass": "^1.23.7"
+  }
+}
